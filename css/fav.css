@@ -1,0 +1,19 @@
+.f_top img{
+    width: 128px;
+height: 128px;
+border-radius: 100px;
+border: 6px solid #f5b7d3;
+}
+.main{
+    background:linear-gradient(90deg,#f8f0e4,#fff) ;
+}
+.pre{
+    background: linear-gradient(90deg, rgba(219, 176, 246, 0.60) 0%, rgba(219, 176, 246, 0.00) 100%);
+}
+.disnone{
+    display: none;
+}
+.bott{
+    bottom: 88px;
+    left: 0;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+</head>
+
+<body>
+    <div class="img1" id="img1">
+        <img src="./static/image/2.png" alt="">
+    </div>
+    <div class="img2" id="img2">
+        <img src="./static/image/8.png" alt="">
+    </div>
+    <div class="img3" id="img3">
+        <img src="./static/image/8.png" alt="">
+    </div>
+    <div class="img4" id="img4">
+        <img src="./static/image/8.png" alt="">
+    </div>
+</body>
+<script>
+    var t2 = gsap.timeline();
+    // gsap.to(20,91)
+   async function img1animation() {
+            await setInterval(() => {
+                t2.from("#img1", { x: -120, y: -120, opacity: 1 });
+            t2.from("#img2", { x: 120, y: -120, opacity: 1 });
+            t2.from("#img3", { x: 130, y: -140, opacity: 1 });
+            t2.from("#img4", { x: 160, y: -170, opacity: 1 });
+            }, 1000);
+               
+    }
+  async  function img2animation() {
+          await setInterval(() => {
+            t2.to("#img2", { x: 140, y: -110, opacity: .5 });
+            t2.to("#img1", { x: -110, y: -110, opacity: .5 });  
+            t2.to("#img3", { x: -120, y: -120, opacity: .5 });  
+            t2.to("#img4", { x: -130, y: -160, opacity: .5 });  
+          }, 1000);
+            
+    }
+    
+    function showMainScreen() {
+      document.getElementById("img2").style.display = "none";
+      document.getElementById("img1").style.display = "none";
+      document.getElementById("img3").style.display = "none";
+      document.getElementById("img4").style.display = "none";
+
+      t1.play();
+    }
+window.onload = function(){
+    var t1 = gsap.timeline({ onstalled: showMainScreen });
+ img2animation()
+     img1animation()
+}
+
+
+
+</script>
+
+</html>

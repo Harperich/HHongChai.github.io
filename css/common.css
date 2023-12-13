@@ -1,0 +1,218 @@
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: 'iconfont';  /* Project id 4349957 */
+    src: url('https://at.alicdn.com/t/c/font_4349957_d6ykhyummce.woff2?t=1701188728241') format('woff2'),
+         url('https://at.alicdn.com/t/c/font_4349957_d6ykhyummce.woff?t=1701188728241') format('woff'),
+         url('https://at.alicdn.com/t/c/font_4349957_d6ykhyummce.ttf?t=1701188728241') format('truetype');
+  }
+  .iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+  
+.flex_x{
+    display: flex;
+}
+.flex_y{
+    display: flex;
+    flex-direction: column;
+}
+.between{
+    justify-content: space-between;
+}
+.around{
+    justify-content: space-around;
+}
+.pd12{
+    padding: 12px;
+}
+.border_box{
+    box-sizing: border-box;
+}
+.txt_center{
+    text-align: center;
+}
+.algin_center{
+    align-items: center;
+}
+.start{
+    justify-content: flex-start;
+}
+.end{
+    justify-content: flex-end;
+}
+.mt_16{
+    margin-top: 16px;
+}
+.pos_a{
+    position: absolute;
+}
+.pos_r{
+    position: relative;
+}
+.pos_f{
+    position: fixed;
+}
+body,html{
+font-size: 20px;
+}
+.font_blod{
+    font-weight: bold;
+    color: #000;
+}
+.font_40{
+    font-size: 40px;
+}
+.font_60{
+    font-size: 60px;
+}
+.margin0{
+    margin: 0 auto;
+}
+.mr_20{
+    margin-right: 20px;
+}
+.mr_6{
+    margin-right: 6px;
+}
+.mt_20{
+    margin-top: 20px;
+}
+.tab_item img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.tab_item{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: content-box;
+    font-size: 12px;
+}
+.active{
+    background: #DBB0F6;
+}
+.tab{
+    position: fixed;
+    width: 100vw;
+   padding: 6px;
+   background-color: #fff;
+   box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #ccc;
+}
+body,html{
+padding: 0;
+margin: 0;
+}
+.border50{
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.mt_60{
+    margin-top: 60px;
+}
+.font_14{
+    font-size: 14px;
+}
+.font_9{
+    font-size: 9px;
+}
+.font_12{
+    font-size: 12px;
+}
+.font_13{
+    font-size: 13px;
+}
+.font_16{
+    font-size: 16px;
+}
+.font_10{
+    font-size: 10px;
+}
+.ml_20{
+    margin-left: 20px;
+}
+.font_26{
+    font-size: 26px;
+}
+.font_24{
+    font-size: 24px;
+}
+.color_red{
+    color: #FFC249;
+}
+.color_ff{
+    color: #fff;
+}
+.mt_10{
+    margin-top: 10px;
+}
+
+.bott {
+    height: 160px;
+    width: 100%;
+}
+
+.bott img {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.p24{
+    padding: 24px;
+}
+.color_cc{
+    color: #888;
+}
+.bottoms{
+background-color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+}
+.d_area {  
+    position: relative;  
+    color: #888;
+    height: 90px;
+    width: 100%;
+}
+.detailss{
+    width: 100%;
+    height: 100%;
+}
+.taggle{
+    position: absolute;
+    left: 35%;
+    bottom: 0;
+}
+.disnone img{
+    width: 50px;
+}
+.c_mask{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, .7);
+}
+.mines{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/art.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="./js/common.js"></script>  
+
+
+</head>
+<body>
+    <div class="mains pd12 border_box"  style="padding-bottom: 200px;">
+        <div class="flex_x start algin_center back">
+            <i class="iconfont mr_20"> &#xe84f;</i>
+            <h4>Artist</h4>
+        </div>
+        <div class="s_area margin0 border_box">
+            <input type="text" placeholder="Search for artists " name="" id="">
+        </div>
+        <div class="keys font_16">Search History</div>
+        <div class="k_area txt_center font_9 mt_16">Ed Sheeran</div>
+        <div class="keys font_16">Recommended to You</div>
+        <div class="ani_area pd12 border_box pos_r">
+            <div class="ecl1 edison"></div>
+            <div class="ecl1 ecl2 pos_a"></div>
+            <div class="ecl1 ecl3 pos_a"></div>
+            <div class="ecl1 ecl4 pos_a"></div>
+            <div class="ecl1 ecl5 pos_a"></div>
+
+        </div>
+        <div class="bottoms" >
+            <div class="d_area">
+                <img class=" detailss" src="./static/image/Snipaste_2023-12-05_16-00-35.png" alt="">
+                <div class="taggle">
+                    <div class="t_top flex_x around">
+                        <i class="iconfont mt_10">&#xe78a;</i>
+                        <i class="iconfont font_24 pause btns" >&#xe624;</i>
+                        <i class="iconfont mt_10">&#xe7a5;</i>
+                    </div>
+                    <div class="t_bot font_12 mt_16 txt_center">Thinking Out Loud</div>
+                </div>
+            </div>
+          
+          </div>
+    </div>
+</body>
+<script>
+      $(function(){
+        $('.back').click(function(){
+            window.history.back()
+        })
+        $('.edison').click(function(){
+            window.location.href = "./ArtistsDetail.html"
+        })
+    })
+    gsap.to('.ecl1', {
+        x: -10,
+        y: 10,
+        duration: 4,
+        repeat: 2
+});
+    gsap.to('.ecl2', {
+        x: 10,
+        y: 20,
+        duration: 3,
+        repeat: 2
+});
+gsap.to('.ecl3', {
+        x: 10,
+        y: 20,
+        duration: 3,
+        repeat: 2
+});
+gsap.to('.ecl4', {
+        x: 20,
+        y: 40,
+        duration: 3,
+        repeat: 2
+});
+gsap.to('.ecl5', {
+        x: -10,
+        y: 20,
+        duration: 3,
+        repeat: 2
+});
+
+</script>
+</html>

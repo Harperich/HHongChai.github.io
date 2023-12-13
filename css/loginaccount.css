@@ -1,0 +1,91 @@
+.content {
+    font-family: "阿里妈妈刀隶体 Regular";
+    /* background-color: antiquewhite; */
+    overflow: hidden;
+    height: 100vh;
+    display: none;
+}
+.logo_txt1{
+font-size: 80px;
+font-weight: 600;
+}
+.logo_txt2{
+    margin-top: 40px;
+    font-size: 32px;
+}
+.email{
+    width: 285px;
+    height: 42px;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.55);
+    border-radius: 15px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(219, 176, 246, 0.25);
+}
+.right_icon{
+    right: -60px;
+    top: -60px;
+    width: 204.546px;
+height: 204.546px;
+}
+.right_icon img{
+    width: 200px;
+    height: 200px;
+    width: 204.546px;
+height: 204.546px;
+transform: rotate(0.095deg);
+flex-shrink: 0;
+}
+.l_b_img{
+    bottom: 200px;
+    left: -100px;
+    z-index: -99;
+    backdrop-filter: blur(500px) 
+}
+.l_b_img img{
+
+    width: 204.546px;
+height: 204.546px;
+transform: rotate(0.095deg);
+scale: 5.3;filter: blur(2px);
+}
+.sign{
+    width: 206px;
+    height: 49px;
+    line-height: 49px;
+    flex-shrink: 0;
+    border-radius: 15px;
+background: rgba(211, 145, 251, 0.59);
+box-shadow: 0px 4px 4px 0px rgba(219, 176, 246, 0.25);
+margin: 30px auto;
+}
+.cc{
+    color: rgba(0, 0, 0, 0.67);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+}
+.oo{
+    color: #000;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.bottoms{
+    margin: 50 auto;
+}
+.tw img{
+    width: 45px;
+    height: 45px;
+}

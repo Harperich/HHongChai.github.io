@@ -1,0 +1,13 @@
+body{
+    /* background-image: url("./static/image/Property\ 1=Default.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.img1 img{
+    width: 220px;
+height: 220px;
+}
+.img2 img,.img3 img,.img img{
+    width: 40px;
+    height: 40px;
+}

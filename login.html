@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/login.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+	<script src="./js/common.js"></script>
+	<script src="./js/login.js"></script>
+</head>
+
+<body>
+	<div class="main pos_r">
+		<img class="pos_a img1" src="./static/image/5.png" alt="">
+		<img src="./static/image/2.png" class="pos_a img2" alt="">
+		<img src="./static/image/2.png" class="pos_a img3" alt="">
+		<!-- <img src="./static/image/music.png" class="img4 pos_a" alt=""> -->
+		<div class="img4 pos_a music">MUSIC</div>
+		<img src="./static/image/2.png" class="pos_a img5" alt="">
+		<img src="./static/image/2.png" class="pos_a img6" alt="">
+		<img src="./static/image/5.png" class="pos_a img7" alt="">
+		<div class="logins txt_center pos_a">Skip it</div>
+	</div>
+	<div class="main2 pos_r">
+		<img class="news" src="./static/image/5.png" alt="">
+		<!-- <img src="./static/image/music.png" class="img4 pos_a" alt=""> -->
+		<div class="img4 pos_a">MUSIC</div>
+		<div class="acc txt_center pos_a accounts">Create an account</div>
+		<div class="google txt_center pos_a">Sign in with Google</div>
+		<div class="mt_20 txt_center pos_a" style="top: 600px;left: 26vw;">
+			<span class="color_cc font_12">Already have an account? </span>
+			<span class=" font_12">Sign in </span>
+		</div>
+	</div>
+</body>
+<script>
+	gsap.to(".img1", {
+		x: 10,
+		xPercent: 0,
+		duration: 2,
+		repeat: -1,
+		yoyo: true,
+	});
+	gsap.to(".img3", {
+		x: 10,
+		xPercent: 0,
+		duration: 2,
+		repeat: -1,
+		yoyo: true,
+	});
+	gsap.to(".img2", {
+		x: 10,
+		xPercent: 0,
+		duration: 2,
+		repeat: -1,
+		yoyo: true,
+	});
+	gsap.to(".img5", {
+		x: 10,
+		xPercent: 0,
+		duration: 2,
+		repeat: -1,
+		yoyo: true,
+	});
+	gsap.to(".img6", {
+		x: 10,
+		xPercent: 0,
+		duration: 2,
+		repeat: -1,
+		yoyo: true,
+	});
+
+	gsap.to(".img7", {
+		x: 10,
+		xPercent: 0,
+		duration: 2,
+		repeat: -1,
+		yoyo: true,
+	});
+
+	$(function () {
+		$('.logins').click(function () {
+			gsap.to(".main", {
+				duration: 0.5,
+				opacity: 0,
+				y: -100,
+				stagger: 0.1,
+				ease: "back.in",
+			}); $('.main').hide()
+			$('.main2').show(1000, 'linear')
+		})
+		$('.acc').show(1000, 'linear')
+		$('.google').show(1000, 'linear')
+		$('.acc,.google').click(function () {
+			window.location.href = "./discover.html"
+		})
+		$('.acc,.accounts').click(function () {
+			window.location.href = "./loginaccount.html"
+		})
+	})
+</script>
+<style>
+	@font-face {
+		font-family: 'jost';
+		src: url('./Jost-Italic-VariableFont_wght.ttf');
+	}
+	.img4{
+		font-family: jost;
+		font-size: 50px;
+		left: 30%;
+	}
+</style>
+
+</html>

@@ -1,0 +1,94 @@
+.main{
+	background: linear-gradient(180deg,#f4efe8,#fff);
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+.img1{
+	width: 220px;
+	height: 220px;
+	left: -70px;
+	top: -70px;
+}
+.img2{
+	width: 40px;
+	height: 40px;
+	top: 140px;
+	left: 160px;
+}
+.img3{
+	width: 63px;
+	height: 63px;
+	right: 60px;
+	top: 180px;
+}
+.img4{
+	width: 269px;
+height: 90px;
+top: 240px;
+left: 85px;
+}
+.img5{
+	width: 80px;
+height: 80px;
+left: 40px;
+top: 430px;
+}
+.img6{
+	width: 50px;
+	height: 50px;
+	right: 120px;
+	top: 560px;
+}
+.img7{
+	width: 500px;
+	height: 500px;
+	bottom: -200px;
+left: -40px;
+transform: scale(1.5);
+}
+.logins{
+	width: 156px;
+height: 50px;
+line-height: 50px;
+background-color: #fff;
+bottom: 130px;
+left: 30vw;
+border-radius: 10px;
+}
+.main2{
+	/* background-image: url("../static/image/5.png"); */
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	display: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main2 .news{
+	width: 100%;
+	transform: scale(1.9);
+	margin-top: 200px;
+}
+
+.google,.acc{
+	top: 440px;
+	left: 10vw;
+width: 322px;
+margin: 0 auto;
+height: 51px;
+line-height: 51px;
+box-shadow: 0px 4px 4px 0px rgba(219, 176, 246, 0.70);
+z-index: 999;
+border-radius: 15px;
+background: rgba(211, 145, 251, 0.59);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+display: none;
+
+}
+.acc{
+	top: 360px;
+	left: 10vw;
+	background-color: #fff;
+	display: none;
+}
